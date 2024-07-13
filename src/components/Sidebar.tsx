@@ -31,6 +31,11 @@ const navItems = [
     label: 'Image-Carousel',
     path: 'image-carousel',
   },
+  {
+    icon: 'question-and-answer',
+    label: 'Profile-Card',
+    path: '/profile-card',
+  },
 ];
 
 const Sidebar = () => {

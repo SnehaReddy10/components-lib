@@ -5,6 +5,9 @@ import Promotion from './components/Promotion';
 import Sidebar from './components/Sidebar';
 import Reactangels from './components/Reactangels';
 import ImageCarousel from './components/ImageCarousel';
+import Wave from './components/Wave';
+import ProfileCard from './components/ProfileCard';
+import { Route, Routes } from 'react-router-dom';
 
 const slides = [
   'https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -45,21 +48,15 @@ function App() {
         <Sidebar />
       </div>
       <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
-        <section id="promotion">
-          <Promotion />
-        </section>
-        <section id="image-carousel" className="w-[60%] m-auto mt-10">
-          <ImageCarousel slides={slides} />
-        </section>
-        <section id="button">
-          <Button />
-        </section>
-        <section id="carousel">
-          <Carousel />
-        </section>
-        <section id="rectangles">
-          <Reactangels />
-        </section>
+        <Routes>
+          <Route path="/profile-card" element={<ProfileCard />}></Route>
+          <Route path="/rectangles" element={<Reactangels />}></Route>
+          <Route path="/wave" element={<Wave />}></Route>
+          <Route path="/carousel" element={<Carousel />}></Route>
+          <Route path="/button" element={<Button />}></Route>
+          <Route path="/image-carousel" element={<ImageCarousel />}></Route>
+          <Route path="/promotion" element={<Promotion />}></Route>
+        </Routes>
       </div>
     </div>
   );
