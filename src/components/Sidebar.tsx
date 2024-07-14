@@ -36,6 +36,11 @@ const navItems = [
     label: 'Profile-Card',
     path: '/profile-card',
   },
+  {
+    icon: 'question-and-answer',
+    label: 'Add to Bag',
+    path: '/product',
+  },
 ];
 
 const Sidebar = () => {

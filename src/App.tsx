@@ -8,6 +8,7 @@ import ImageCarousel from './components/ImageCarousel';
 import Wave from './components/Wave';
 import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
+import { Product } from './components/Product';
 
 const slides = [
   'https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -56,6 +57,7 @@ function App() {
           <Route path="/button" element={<Button />}></Route>
           <Route path="/image-carousel" element={<ImageCarousel />}></Route>
           <Route path="/promotion" element={<Promotion />}></Route>
+          <Route path="/product" element={<Product />}></Route>
         </Routes>
       </div>
     </div>
