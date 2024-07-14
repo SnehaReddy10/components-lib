@@ -67,7 +67,7 @@ export const Product = () => {
               </span>
             </div>
 
-            <span className="text-gray-400 font-semibold text-[0.55rem]">
+            <span className="text-gray-400 font-semibold text-[0.55rem] line-through">
               $132.00
             </span>
           </div>
