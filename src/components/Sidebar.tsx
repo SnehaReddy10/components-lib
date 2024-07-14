@@ -41,6 +41,11 @@ const navItems = [
     label: 'Add to Bag',
     path: '/product',
   },
+  {
+    icon: 'question-and-answer',
+    label: 'Mobile Navigation',
+    path: '/mobile-navigation',
+  },
 ];
 
 const Sidebar = () => {

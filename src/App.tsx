@@ -9,6 +9,7 @@ import Wave from './components/Wave';
 import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
 import { Product } from './components/Product';
+import MobileNavigation from './components/MobileNavigation';
 
 const slides = [
   'https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -45,7 +46,7 @@ function App() {
         <img src="" alt="" />
         cask
       </div> */}
-      <div>
+      <div className="hidden md:flex">
         <Sidebar />
       </div>
       <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
@@ -58,6 +59,10 @@ function App() {
           <Route path="/image-carousel" element={<ImageCarousel />}></Route>
           <Route path="/promotion" element={<Promotion />}></Route>
           <Route path="/product" element={<Product />}></Route>
+          <Route
+            path="/mobile-navigation"
+            element={<MobileNavigation />}
+          ></Route>
         </Routes>
       </div>
     </div>
