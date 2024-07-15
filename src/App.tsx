@@ -10,6 +10,7 @@ import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
 import { Product } from './components/Product';
 import MobileNavigation from './components/MobileNavigation';
+import HotelBooking from './components/HotelBooking';
 
 const slides = [
   'https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -63,6 +64,7 @@ function App() {
             path="/mobile-navigation"
             element={<MobileNavigation />}
           ></Route>
+          <Route path="/hotel-booking" element={<HotelBooking />}></Route>
         </Routes>
       </div>
     </div>

@@ -46,6 +46,11 @@ const navItems = [
     label: 'Mobile Navigation',
     path: '/mobile-navigation',
   },
+  {
+    icon: 'question-and-answer',
+    label: 'Hotel Booking',
+    path: '/hotel-booking',
+  },
 ];
 
 const Sidebar = () => {
