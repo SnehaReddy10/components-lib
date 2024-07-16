@@ -35,4 +35,18 @@
       opacity: 1;
     }
   }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  /* Customizing the calendar icon */
+  .dateInput::-webkit-calendar-picker-indicator {
+    @apply cursor-pointer bg-[url('/assets/icons/calendar.png')] w-4 h-4;
+  }
 }

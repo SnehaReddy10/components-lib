@@ -6,6 +6,7 @@ export default {
     extend: {},
     animation: {
       fadeIn: 'fadeIn 2s ease 1',
+      fadeOut: 'fadeOut 2s ease 1 forwards',
     },
   },
   plugins: [],
