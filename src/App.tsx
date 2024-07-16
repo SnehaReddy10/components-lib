@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Product } from './components/Product';
 import MobileNavigation from './components/MobileNavigation';
 import HotelBooking from './components/HotelBooking';
+import ShoppingList from './components/ShoppingList';
 
 const slides = [
   'https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -65,6 +66,7 @@ function App() {
             element={<MobileNavigation />}
           ></Route>
           <Route path="/hotel-booking" element={<HotelBooking />}></Route>
+          <Route path="/shopping-list" element={<ShoppingList />}></Route>
         </Routes>
       </div>
     </div>

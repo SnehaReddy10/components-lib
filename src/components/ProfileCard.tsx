@@ -20,7 +20,15 @@ const soacialLinks = [
 function ProfileCard() {
   return (
     <div className="bg-yellow-100 w-3/4 h-full flex justify-center text-black text-center text-xs">
-      <div className="flex flex-col gap-5 rounded-3xl shadow-lg shadow-gray-700 w-60 py-5 px-5 bg-white my-20 mx-10">
+      <div className="relative flex flex-col gap-5 rounded-3xl shadow-lg shadow-gray-700 w-60 py-5 px-5 bg-white my-20 mx-10">
+        {/* <div className="absolute top-0 left-0 h-20 w-full">
+          <div className="absolute w-full bg-pink-700 h-20 top-0 left-0"></div>
+          <div className="absolute top-[4rem] left-[9.3rem] h-10 w-[30%] bg-white rounded-ss-3xl rounded-se-[4rem]"></div>
+          <div className="absolute top-0 left-0 flex w-full">
+            <div className="h-20 w-[70%] bg-pink-700 rounded-ss-3xl rounded-es-[3rem] rounded-ee-[5rem]"></div>
+            <div className="absolute top-[2.1rem] left-[9.3rem] h-5 w-[20%] bg-white rounded-t-full"></div>
+          </div>
+        </div> */}
         <div className="flex justify-center">
           <img
             src="assets/icons/woman.png"

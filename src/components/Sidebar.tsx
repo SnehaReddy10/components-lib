@@ -51,6 +51,11 @@ const navItems = [
     label: 'Hotel Booking',
     path: '/hotel-booking',
   },
+  {
+    icon: 'question-and-answer',
+    label: 'Shopping List',
+    path: '/shopping-list',
+  },
 ];
 
 const Sidebar = () => {
