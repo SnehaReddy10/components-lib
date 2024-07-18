@@ -26,6 +26,11 @@
   .text-xxs{
     @apply text-[0.65rem] leading-3 tracking-wider
   }
+  
+  .text-xxxs{
+    @apply text-[0.55rem]
+  }
+
 
   @keyframes fadeIn {
     from {
