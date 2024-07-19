@@ -1,23 +1,31 @@
+import { Link } from 'react-router-dom';
+
 const soacialLinks = [
   {
-    title: 'facebook',
-    icon: 'facebook',
-  },
-  {
-    title: 'linkedin',
-    icon: 'linkedin',
+    title: 'github',
+    icon: 'github',
+    link: 'https://github.com/SnehaReddy10',
   },
   {
     title: 'twitter',
     icon: 'twitter',
+    link: 'https://x.com/SnehaReddy_02',
   },
+  {
+    title: 'facebook',
+    icon: 'facebook',
+    link: 'https://www.linkedin.com/in/sneha-reddy-7294051bb/',
+  },
+  {
+    title: 'linkedin',
+    icon: 'linkedin',
+    link: 'https://www.linkedin.com/in/sneha-reddy-7294051bb/',
+  },
+
   {
     title: 'instagram',
     icon: 'instagram',
-  },
-  {
-    title: 'github',
-    icon: 'github',
+    link: 'https://github.com/SnehaReddy10',
   },
 ];
 
@@ -84,11 +92,13 @@ function ProfileCard() {
         </div>
         <div className="flex justify-around mx-6">
           {soacialLinks.map((x) => (
-            <img
-              key={x.title}
-              src={`/assets/icons/${x.icon}.png`}
-              className="h-4 w-4 rounded-full"
-            />
+            <Link to={x.link}>
+              <img
+                key={x.title}
+                src={`/assets/icons/${x.icon}.png`}
+                className="h-4 w-4 rounded-full"
+              />
+            </Link>
           ))}
         </div>
         <p className="font-semibold text-balance text-[0.65rem] tracking-tighter">
