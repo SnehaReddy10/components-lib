@@ -21,7 +21,6 @@ const slides = [
   'https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   'https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   'https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/286763/pexels-photo-286763.jpeg?auto=compress&cs=tinysrgb&w=600',
 ];
 
 function App() {
@@ -57,7 +56,10 @@ function App() {
           <Route path="/rectangles" element={<Reactangels />}></Route>
           <Route path="/carousel" element={<Carousel />}></Route>
           <Route path="/button" element={<Button />}></Route>
-          <Route path="/image-carousel" element={<ImageCarousel />}></Route>
+          <Route
+            path="/image-carousel"
+            element={<ImageCarousel slides={slides} />}
+          ></Route>
           <Route path="/promotion" element={<Promotion />}></Route>
           <Route path="/product" element={<Product />}></Route>
           <Route

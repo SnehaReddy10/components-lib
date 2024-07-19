@@ -26,7 +26,7 @@ const ImageCarousel = ({ slides }: any) => {
       : setSecondCarouselCurrentImage((c) => c + 1);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 w-1/2 h-screen">
       <div className={`overflow-hidden relative`}>
         <div
           className={`flex transition ease-linear duration-500`}
