@@ -24,7 +24,7 @@ const slides = [
 ];
 
 function App() {
-  const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme] = useState(true);
 
   useEffect(() => {
     if (darkTheme) {

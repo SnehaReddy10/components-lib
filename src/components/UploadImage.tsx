@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const UploadImage = () => {
   const [file, setFile] = useState<File | null>(null);
-  const [imagePreview, setImagePreview] = useState<string | null>('');
+  const [imagePreview] = useState<string | null>('');
 
   return (
     <div className="bg-blue-100 w-full h-full text-xxs flex flex-col justify-center items-center">
