@@ -5,7 +5,6 @@ import Promotion from './components/Promotion';
 import Sidebar from './components/Sidebar';
 import Reactangels from './components/Reactangels';
 import ImageCarousel from './components/ImageCarousel';
-import Wave from './components/Wave';
 import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
 import { Product } from './components/Product';
@@ -56,7 +55,6 @@ function App() {
         <Routes>
           <Route path="/profile-card" element={<ProfileCard />}></Route>
           <Route path="/rectangles" element={<Reactangels />}></Route>
-          <Route path="/wave" element={<Wave />}></Route>
           <Route path="/carousel" element={<Carousel />}></Route>
           <Route path="/button" element={<Button />}></Route>
           <Route path="/image-carousel" element={<ImageCarousel />}></Route>
