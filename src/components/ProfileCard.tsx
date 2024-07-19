@@ -78,7 +78,7 @@ function ProfileCard() {
             className="rounded-full h-16 w-16 z-30 bg-white p-[2px]"
           />
         </div>
-        <div className="flex flex-col mt-12">
+        <div className="flex flex-col mt-14">
           <h3 className="font-sans tracking-widest font-bold">Sneha Reddy</h3>
           <h6 className="text-xxs text-slate-300">@snehareddy10</h6>
         </div>
