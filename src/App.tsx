@@ -53,7 +53,7 @@ function App() {
       <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
         <Routes>
           <Route path="/profile-card" element={<ProfileCard />}></Route>
-          <Route path="/rectangles" element={<Reactangels />}></Route>
+          {/* <Route path="/rectangles" element={<Reactangels />}></Route>
           <Route path="/carousel" element={<Carousel />}></Route>
           <Route path="/button" element={<Button />}></Route>
           <Route
@@ -68,7 +68,7 @@ function App() {
           ></Route>
           <Route path="/hotel-booking" element={<HotelBooking />}></Route>
           <Route path="/shopping-list" element={<ShoppingList />}></Route>
-          <Route path="/upload-image" element={<UploadImage />}></Route>
+          <Route path="/upload-image" element={<UploadImage />}></Route> */}
         </Routes>
       </div>
     </div>
