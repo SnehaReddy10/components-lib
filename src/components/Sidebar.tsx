@@ -77,8 +77,8 @@ const navItems = [
 
 const Sidebar = () => {
   return (
-    <div className="h-[99.8%] w-48 bg-gradient-r p-1p">
-      <div className="bg-white dark:bg-black h-[99.8%]">
+    <div className="h-[99.8%] w-48 bg-gradient-r p-1p animate-slideIn">
+      <div className="bg-white dark:bg-black h-[99.8%] animate-slideIn">
         <div className="bg-gradient-r pb-[4px]">
           <div className="bg-white dark:bg-black flex p-2 items-center gap-2">
             <img

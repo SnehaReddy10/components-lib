@@ -7,6 +7,7 @@ export default {
     animation: {
       fadeIn: 'fadeIn 2s ease 1',
       fadeOut: 'fadeOut 2s ease 1 forwards',
+      slideIn: 'slideIn 2s ease 1',
     },
   },
   plugins: [],

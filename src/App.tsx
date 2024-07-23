@@ -23,7 +23,10 @@ function App() {
   }, [darkTheme]);
 
   return (
-    <div className="w-screen h-full flex justify-between" style={theme()}>
+    <div
+      className="w-screen relative h-full flex justify-between"
+      style={theme()}
+    >
       {/* <div className="" onClick={() => setDarkTheme((theme) => !theme)}>
         <img src="" alt="" />
         cask
@@ -31,6 +34,14 @@ function App() {
       <div className="hidden md:flex">
         <Sidebar />
       </div>
+      {/* <div className="flex md:hidden">
+        <SquareMenu
+          color="black"
+          onClick={() => setShowSideBar((x) => !x)}
+          className="absolute top-2 left-0 z-10"
+        />
+        {showSideBar && <Sidebar />}
+      </div> */}
       <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
         <Routes>
           <Route path="/profile-card" element={<ProfileCard />}></Route>
