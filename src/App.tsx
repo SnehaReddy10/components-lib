@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import Sidebar from './components/Sidebar';
 import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
+import ShoppingList from './components/ShoppingList';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -33,6 +34,7 @@ function App() {
       <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
         <Routes>
           <Route path="/profile-card" element={<ProfileCard />}></Route>
+          <Route path="/shopping-list" element={<ShoppingList />}></Route>
           {/* <Route path="/rectangles" element={<Reactangels />}></Route>
           <Route path="/carousel" element={<Carousel />}></Route>
           <Route path="/button" element={<Button />}></Route>
@@ -47,7 +49,6 @@ function App() {
             element={<MobileNavigation />}
           ></Route>
           <Route path="/hotel-booking" element={<HotelBooking />}></Route>
-          <Route path="/shopping-list" element={<ShoppingList />}></Route>
           <Route path="/upload-image" element={<UploadImage />}></Route> */}
         </Routes>
       </div>

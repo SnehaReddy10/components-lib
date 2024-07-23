@@ -61,12 +61,12 @@ const navItems = [
   //   label: 'Hotel Booking',
   //   path: '/hotel-booking',
   // },
-  // {
-  //   id: 11,
-  //   icon: 'question-and-answer',
-  //   label: 'Shopping List',
-  //   path: '/shopping-list',
-  // },
+  {
+    id: 11,
+    icon: 'question-and-answer',
+    label: 'Shopping List',
+    path: '/shopping-list',
+  },
   // {
   //   id: 12,
   //   icon: 'question-and-answer',
