@@ -73,6 +73,18 @@ const navItems = [
   //   label: 'Upload Image',
   //   path: '/upload-image',
   // },
+  {
+    id: 13,
+    icon: 'question-and-answer',
+    label: 'Music Events',
+    path: '/music-events',
+  },
+  {
+    id: 13,
+    icon: 'question-and-answer',
+    label: 'Products List',
+    path: '/products-list',
+  },
 ];
 
 const Sidebar = () => {

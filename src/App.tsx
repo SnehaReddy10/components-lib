@@ -4,6 +4,7 @@ import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
 import ShoppingList from './components/ShoppingList';
 import ProductsList from './components/ProductsList';
+import MusicEvents from './components/MusicEvents';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -63,6 +64,7 @@ function App() {
           <Route path="/hotel-booking" element={<HotelBooking />}></Route>
           <Route path="/upload-image" element={<UploadImage />}></Route> */}
           <Route path="/products-list" element={<ProductsList />}></Route>
+          <Route path="/music-events" element={<MusicEvents />}></Route>
         </Routes>
       </div>
     </div>
