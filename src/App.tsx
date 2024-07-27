@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import ProfileCard from './components/ProfileCard';
 import { Route, Routes } from 'react-router-dom';
 import ShoppingList from './components/ShoppingList';
+import ProductsList from './components/ProductsList';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -61,6 +62,7 @@ function App() {
           ></Route>
           <Route path="/hotel-booking" element={<HotelBooking />}></Route>
           <Route path="/upload-image" element={<UploadImage />}></Route> */}
+          <Route path="/products-list" element={<ProductsList />}></Route>
         </Routes>
       </div>
     </div>
