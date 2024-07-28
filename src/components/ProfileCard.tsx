@@ -31,8 +31,8 @@ const soacialLinks = [
 
 function ProfileCard() {
   return (
-    <div className="bg-yellow-100 w-full h-full flex justify-center text-black text-center text-xs">
-      <div className="relative flex flex-col gap-5 rounded-3xl shadow-lg shadow-gray-700 w-60 py-3 px-5 bg-white my-20 mx-10">
+    <div className="bg-yellow-100 w-full h-screen flex justify-center text-black text-center text-xs">
+      <div className="h-max relative flex flex-col gap-5 rounded-3xl shadow-lg shadow-gray-700 w-60 py-3 px-5 bg-white my-20 mx-10">
         <div className="absolute top-0 left-0 w-full overflow-hidden rotate-180 rounded-3xl z-20">
           <svg
             data-name="Layer 1"
