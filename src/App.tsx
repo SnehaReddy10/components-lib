@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import ShoppingList from './components/ShoppingList';
 import ProductsList from './components/ProductsList';
 import MusicEvents from './components/MusicEvents';
+import RestaurantHero from './components/RestaurantHero';
+import SubscribeCard from './components/SubscribeCard';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -65,6 +67,7 @@ function App() {
           <Route path="/upload-image" element={<UploadImage />}></Route> */}
           <Route path="/products-list" element={<ProductsList />}></Route>
           <Route path="/music-events" element={<MusicEvents />}></Route>
+          <Route path="/subscribe-card" element={<SubscribeCard />}></Route>
         </Routes>
       </div>
     </div>

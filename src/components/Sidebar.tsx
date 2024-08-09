@@ -85,6 +85,12 @@ const navItems = [
     label: 'Products List',
     path: '/products-list',
   },
+  {
+    id: 15,
+    icon: 'question-and-answer',
+    label: 'Subcsribe Card',
+    path: '/subscribe-card',
+  },
 ];
 
 const Sidebar = () => {
