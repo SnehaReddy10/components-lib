@@ -80,16 +80,22 @@ const navItems = [
     path: '/music-events',
   },
   {
-    id: 13,
+    id: 14,
     icon: 'question-and-answer',
     label: 'Products List',
     path: '/products-list',
   },
   {
-    id: 15,
+    id: 16,
     icon: 'question-and-answer',
     label: 'Subcsribe Card',
     path: '/subscribe-card',
+  },
+  {
+    id: 17,
+    icon: 'question-and-answer',
+    label: 'Image Grid',
+    path: '/image-grid',
   },
 ];
 

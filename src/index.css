@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --translate-x: 13rem;
+  --translate-y: 13rem;
+}
+
 @layer utilities{
   .p-1p{
     @apply p-[1px]
@@ -58,6 +63,17 @@
     }
     to {
       transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes reorganize {
+    from {
+      transform: translateX(var(--translate-x)) translateY(var(--translate-y));
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
       opacity: 1;
     }
   }

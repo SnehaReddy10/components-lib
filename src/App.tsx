@@ -7,6 +7,7 @@ import ProductsList from './components/ProductsList';
 import MusicEvents from './components/MusicEvents';
 import RestaurantHero from './components/RestaurantHero';
 import SubscribeCard from './components/SubscribeCard';
+import Imagegrid from './components/Imagegrid';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -68,6 +69,7 @@ function App() {
           <Route path="/products-list" element={<ProductsList />}></Route>
           <Route path="/music-events" element={<MusicEvents />}></Route>
           <Route path="/subscribe-card" element={<SubscribeCard />}></Route>
+          <Route path="/image-grid" element={<Imagegrid />}></Route>
         </Routes>
       </div>
     </div>

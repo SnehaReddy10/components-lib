@@ -8,6 +8,7 @@ export default {
       fadeIn: 'fadeIn 2s ease 1',
       fadeOut: 'fadeOut 2s ease 1 forwards',
       slideIn: 'slideIn 2s ease 1',
+      reorganize: 'reorganize 2s ease 1 forwards',
     },
   },
   plugins: [],
