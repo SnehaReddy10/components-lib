@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import ShoppingList from './components/ShoppingList';
 import ProductsList from './components/ProductsList';
 import MusicEvents from './components/MusicEvents';
-import RestaurantHero from './components/RestaurantHero';
 import SubscribeCard from './components/SubscribeCard';
 import Imagegrid from './components/Imagegrid';
 
