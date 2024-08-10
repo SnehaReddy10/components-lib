@@ -48,7 +48,7 @@ const ShoppingList = () => {
   }, [productsUpdated]);
 
   return (
-    <div className="relative flex max-md:flex-col justify-center py-10 text-[0.55rem] w-full h-full">
+    <div className="relative flex max-md:flex-col items-center justify-center py-10 text-[0.55rem] w-full h-screen">
       <div className="absolute top-0 left-0 w-full blur-sm h-full bg-cover bg-no-repeat bg-[url('/assets/imgs/products-1.png')]"></div>
       <div className="bg-white z-10 text-black rounded-md m-2 p-4 lg:w-[30%] h-max">
         <div className="flex justify-between gap-4 pb-2">

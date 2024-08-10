@@ -46,7 +46,7 @@ function App() {
         />
         {showSideBar && <Sidebar />}
       </div> */}
-      <div className="pb-10 flex flex-col space-y-8 items-center flex-1">
+      <div className="flex flex-col space-y-8 items-center flex-1">
         <Routes>
           <Route path="/profile-card" element={<ProfileCard />}></Route>
           <Route path="/shopping-list" element={<ShoppingList />}></Route>

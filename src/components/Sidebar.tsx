@@ -79,18 +79,24 @@ const navItems = [
     label: 'Music Events',
     path: '/music-events',
   },
-  {
-    id: 14,
-    icon: 'question-and-answer',
-    label: 'Products List',
-    path: '/products-list',
-  },
-  {
-    id: 16,
-    icon: 'question-and-answer',
-    label: 'Subcsribe Card',
-    path: '/subscribe-card',
-  },
+  // {
+  //   id: 14,
+  //   icon: 'question-and-answer',
+  //   label: 'Products List',
+  //   path: '/products-list',
+  // },
+  // {
+  //   id: 15,
+  //   icon: 'question-and-answer',
+  //   label: 'Restaurant Hero Page',
+  //   path: '/restaurant-hero',
+  // },
+  // {
+  //   id: 16,
+  //   icon: 'question-and-answer',
+  //   label: 'Subcsribe Card',
+  //   path: '/subscribe-card',
+  // },
   {
     id: 17,
     icon: 'question-and-answer',
