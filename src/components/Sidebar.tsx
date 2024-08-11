@@ -103,6 +103,12 @@ const navItems = [
     label: 'Image Grid',
     path: '/image-grid',
   },
+  {
+    id: 18,
+    icon: 'question-and-answer',
+    label: 'Loader Grid',
+    path: '/loader-grid',
+  },
 ];
 
 const Sidebar = () => {

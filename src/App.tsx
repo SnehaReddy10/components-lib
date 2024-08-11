@@ -7,6 +7,7 @@ import ProductsList from './components/ProductsList';
 import MusicEvents from './components/MusicEvents';
 import SubscribeCard from './components/SubscribeCard';
 import Imagegrid from './components/Imagegrid';
+import LoaderGrid from './components/LoaderGrid';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -69,6 +70,7 @@ function App() {
           <Route path="/music-events" element={<MusicEvents />}></Route>
           <Route path="/subscribe-card" element={<SubscribeCard />}></Route>
           <Route path="/image-grid" element={<Imagegrid />}></Route>
+          <Route path="/loader-grid" element={<LoaderGrid />}></Route>
         </Routes>
       </div>
     </div>

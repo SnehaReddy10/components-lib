@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {},
     animation: {
-      fadeIn: 'fadeIn 2s ease 1',
+      fadeIn: 'fadeIn 2s ease 1 forwards',
       fadeOut: 'fadeOut 2s ease 1 forwards',
       slideIn: 'slideIn 2s ease 1',
       reorganize: 'reorganize 2s ease 1 forwards',
