@@ -2,40 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   --translate-x: 13rem;
   --translate-y: 13rem;
 }
 
-@layer utilities{
-  .p-1p{
-    @apply p-[1px]
+@layer utilities {
+  .p-1p {
+    @apply p-[1px];
   }
 
-  .p-06{
-    @apply p-[0.16rem]
+  .p-06 {
+    @apply p-[0.16rem];
   }
 
-  .p-2p{
-    @apply p-[2px]
+  .p-2p {
+    @apply p-[2px];
   }
 
-  .bg-gradient-r{
-    @apply bg-gradient-to-r from-slate-400 via-purple-300 to-orange-200
+  .bg-gradient-r {
+    @apply bg-gradient-to-r from-slate-400 via-purple-300 to-orange-200;
   }
 
-  .bg-gradient-l{
-    @apply bg-gradient-to-l from-slate-400 via-purple-300 to-orange-200
+  .bg-gradient-l {
+    @apply bg-gradient-to-l from-slate-400 via-purple-300 to-orange-200;
   }
 
-  .text-xxs{
-    @apply text-[0.65rem] leading-3 tracking-wider
-  }
-  
-  .text-xxxs{
-    @apply text-[0.55rem]
+  .text-xxs {
+    @apply text-[0.65rem] leading-3 tracking-wider;
   }
 
+  .text-xxxs {
+    @apply text-[0.55rem];
+  }
 
   @keyframes fadeIn {
     from {
@@ -55,7 +54,6 @@
     }
   }
 
-  
   @keyframes slideIn {
     from {
       transform: translateX(-100px);
@@ -64,6 +62,29 @@
     to {
       transform: translateX(0px);
       opacity: 1;
+    }
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateY(0deg);
+      background-color: black;
+      color: black;
+    }
+    to {
+      transform: rotateY(180deg);
+      background-color: rgb(21, 20, 20);
+      color: white;
+    }
+  }
+
+  
+  @keyframes flipText {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
     }
   }
 

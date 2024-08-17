@@ -8,6 +8,7 @@ import MusicEvents from './components/MusicEvents';
 import SubscribeCard from './components/SubscribeCard';
 import Imagegrid from './components/Imagegrid';
 import LoaderGrid from './components/LoaderGrid';
+import FlipCards from './components/FlipCards';
 
 function App() {
   const [darkTheme] = useState(true);
@@ -71,6 +72,7 @@ function App() {
           <Route path="/subscribe-card" element={<SubscribeCard />}></Route>
           <Route path="/image-grid" element={<Imagegrid />}></Route>
           <Route path="/loader-grid" element={<LoaderGrid />}></Route>
+          <Route path="/flip-cards" element={<FlipCards />}></Route>
         </Routes>
       </div>
     </div>

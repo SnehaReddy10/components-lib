@@ -109,6 +109,12 @@ const navItems = [
     label: 'Loader Grid',
     path: '/loader-grid',
   },
+  {
+    id: 20,
+    icon: 'question-and-answer',
+    label: 'Flip Cards',
+    path: '/flip-cards',
+  },
 ];
 
 const Sidebar = () => {
