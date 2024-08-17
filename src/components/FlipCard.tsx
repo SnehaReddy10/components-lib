@@ -9,7 +9,7 @@ function FlipCard({ item }: any) {
     <div
       onMouseEnter={handleFlip}
       onMouseLeave={handleFlip}
-      className="p-2 w-32 h-44 flex justify-center items-center text-xs bg-[#608291] text-white shadow-lg shadow-gray-800 rounded-lg hover:animate-flip"
+      className="p-2 w-44 h-32 sm:w-32 sm:h-44 flex justify-center items-center text-xs bg-[#608291] text-white shadow-lg shadow-gray-800 rounded-lg hover:animate-flip"
     >
       <div className="flex flex-col gap-2 text-[0.65rem] text-center justify-center ">
         <h4 className={`font-bold uppercase ${!flipped ? 'flex' : 'hidden'}`}>
